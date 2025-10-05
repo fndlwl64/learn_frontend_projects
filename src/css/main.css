@@ -33,3 +33,11 @@ main, footer{
     text-align: center;
     color: hsl(from var(--text-color) h s l / 0.8);
 }
+
+footer p {
+    font-size: 0.9em;
+    margin: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,54 @@
+.todo_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todo_input {
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    margin-right: 10px;
+    width: 200px;
+}
+
+.todo_submit {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    transition: background-color 0.3s ease;
+}
+
+ul.todo_list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.todo_list li {
+    color: var(--text-color);
+    background-color: hsl(from var(--accent-color) h s l / 0.3);
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+}
+
+ul.todo_list li input[type="checkbox"] {
+    margin-right: 10px;
+    size: 2em;
+    cursor: pointer;
+}
+
+ul.todo_list li button {
+    cursor: pointer;
+}

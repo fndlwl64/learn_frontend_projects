@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo Manager</title>
     <link rel="stylesheet" href="../src/css/main.css">
+    <link rel="stylesheet" href="src/css/todo.css">
+    <script type="module" src="src/js/todo.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -15,6 +17,17 @@
         </header>
         <main>
             <p>할 일 관리 웹 페이지</p>
+            <section>
+                <form id="todo_form">
+                    <input type="text" id="todo_input" placeholder="할 일을 입력하세요" class="todo_input" required>
+                    <input type="submit" value="추가" class="todo_submit"/>
+                </form>
+            </section>
+            <section>
+                <ul id="todo_list" class="todo_list">
+                    <!-- 할 일 항목이 여기에 추가됩니다 -->
+                </ul>
+            </section>
         </main>
         <footer>
             <p>&copy; 2025 ToDo Manager</p>
