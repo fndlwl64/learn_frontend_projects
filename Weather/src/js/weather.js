@@ -3,7 +3,6 @@
 
     kakaoAddressInput.addEventListener("keydown", function(event) {
         if (event.key === "Enter") {
-            console.log(event.target.value);
             event.preventDefault();
             const mapContainer = document.querySelector("#kakao_maps");
             const mapOption = {
