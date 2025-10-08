@@ -9,3 +9,9 @@
 - 방법
     - localStorage 에 데이터 관리
 - [페이지](./ToDo/)
+### Weather Dashboard
+- 목적 : 도시별 실시간 날씨 표시
+- 방법
+    - API 사용: 카카오 Map API(sdk)
+- 예정
+    - **Rest API 대체 예정**
