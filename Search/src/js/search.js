@@ -13,9 +13,11 @@ import { SearchRenderer } from "./render.js";
     // event
     searchForm.addEventListener("submit", async (e) => {
         e.preventDefault();
+        searchRenderer.loading();
+        
         const query = e.target.querySelector("input[type='search']").value;
         const result = await searchApi.call(query);
-        const json = await result.json(); 
+        const json = await result.json();
         
         searchRenderer.render(json.documents);
     });

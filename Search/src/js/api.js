@@ -1,6 +1,6 @@
 export class SearchApi {
 
-    constructor(pageSize = 20) {
+    constructor(pageSize = 10) {
         this.pageSize = pageSize;
     }
     async call(keyword, pageNum = 1) {

@@ -7,6 +7,13 @@
     margin-bottom: 10px;
 }
 
+.search_loading {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
 .search_list {
     list-style: none;
     border-radius: var(--border-radius);
@@ -18,6 +25,7 @@
     display: table-row;
     padding: 10px;
     margin: 10px;
+    width: auto;
 }
 .search_list li:nth-child(odd) {
     background-color: hsl(from var(--accent-color) h s l / 0.2);
