@@ -12,7 +12,16 @@
 ### Weather Dashboard
 - 목적 : 도시별 실시간 날씨 표시
 - 방법
-    - API 사용: 카카오 Map API(sdk)
+    - sdk 라이브러리 사용
+- 도구
+    - API : 카카오 Map API(sdk)
 - 예정
     - **Rest API 대체 예정**
 - [페이지](./Weather/)
+### Search Clone
+- 목적 : 단일 페이지에서 검색 기능 구현
+- 방법
+    - 비동기 fetch 함수 사용
+- 도구
+    - API : 카카오 도서 Api
+    - 프록시 서버 : 클라우드플레어 (api 키 저장용)

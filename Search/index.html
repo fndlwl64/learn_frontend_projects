@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Clone</title>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="stylesheet" href="../src/css/main.css">
+    <link rel="stylesheet" href="src/css/search.css">
+    <script type="module" src="src/js/search.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">Search Clone</h1>
+        </header>
+        <main>
+            <p>도서 검색 페이지</p>
+            <section>
+                <form id="search_form">
+                    <input type="search" id="search_input" placeholder="검색어를 입력하세요" class="search_input" required>
+                    <input type="submit" value="검색" class="search_submit" hidden/>
+                </form>
+            </section>
+            <section>
+                <ul id="search_list" class="search_list">
+                    <!-- 도서 항목이 여기에 추가됩니다 -->
+                </ul>
+            </section>
+            <section>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

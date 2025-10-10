@@ -1,0 +1,35 @@
+.search_input {
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: var(--border-radius);
+    margin-bottom: 10px;
+}
+
+.search_list {
+    list-style: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    margin: auto;
+    display: table;
+}
+.search_list li {
+    display: table-row;
+    padding: 10px;
+    margin: 10px;
+}
+.search_list li:nth-child(odd) {
+    background-color: hsl(from var(--accent-color) h s l / 0.2);
+}
+.search_list li:nth-child(even) {
+    background-color: hsl(from var(--accent-color) h s l / 0.1);
+}
+.search_list li span:first-child {
+    font-weight: bold;
+}
+.search_list li span, a {
+    display: table-cell;
+    padding: 10px;
+    text-align: left;
+}
