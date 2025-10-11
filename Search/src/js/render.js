@@ -6,6 +6,9 @@ export class SearchRenderer {
     }   
     render(data) {
         this.clear();
+        if(data instanceof Array === false)
+            throw new Error("data must be an array");
+
         data.forEach(item => {
             let li = document.createElement('li');
             let detail = document.createElement('a');
